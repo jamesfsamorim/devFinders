@@ -14,8 +14,6 @@ You must have already installed the following packages :
 The project was divided in respective directory represents backend, frontend and mobile. To run each of them you need
 following these instructions: 
 
-``yarn update``
-
 ``yarn install``
 
 To run the application just execute in each folder: 
