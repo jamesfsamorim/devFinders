@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
@@ -17,4 +18,4 @@ mongoose.connect('mongodb+srv://omni:omniadmin@tindevcluster-mt9dj.mongodb.net/t
 app.use(cors())
 app.use(express.json())
 app.use(routes)
-server.listen(3333)
+server.listen(process.env.PORT)
